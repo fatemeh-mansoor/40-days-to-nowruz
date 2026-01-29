@@ -2,7 +2,6 @@ import { getDaysUntilNowruz, getNowruzDate } from '../utils/dateUtils';
 
 interface HeaderProps {
   title: string;
-  subtitle: string;
   description: string;
   daysRemainingText: string;
   springEquinoxText: string;
@@ -11,7 +10,7 @@ interface HeaderProps {
 /**
  * Application header with title and countdown
  */
-export function Header({ title, subtitle, description, daysRemainingText, springEquinoxText }: HeaderProps) {
+export function Header({ title, description, daysRemainingText, springEquinoxText }: HeaderProps) {
   const daysRemaining = getDaysUntilNowruz();
   const nowruzDate = getNowruzDate();
 

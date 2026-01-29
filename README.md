@@ -263,7 +263,7 @@ This allows users to track progress without a backend.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details
+MIT License - see [LICENSE]() file for details
 
 ## Acknowledgments
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useI18n } from './hooks/useI18n';
 import { isDayCompleted, toggleDayCompleted } from './utils/storage';
 import { getCurrentDayNumber, getDaysUntilNowruz } from './utils/dateUtils';
@@ -14,7 +14,7 @@ export function App() {
   const { language, setLanguage, translations, taskList, isLoading } = useI18n();
   
   // Track completion state to trigger re-renders
-  const [completionVersion, setCompletionVersion] = useState(0);
+  const [_, setCompletionVersion] = useState(0);
   
   // Track which day to display
   const [displayDay, setDisplayDay] = useState<number>(() => {
@@ -89,7 +89,6 @@ export function App() {
         {/* Header */}
         <Header
           title={translations.title}
-          subtitle={translations.subtitle}
           description={translations.description}
           daysRemainingText={translations.daysRemaining}
           springEquinoxText={translations.springEquinox}
@@ -136,7 +135,7 @@ export function App() {
           <p className="mt-2">
             Open source project • MIT License •{' '}
             <a
-              href="https://github.com/yourusername/nowruz-countdown"
+              href="https://github.com/fatemeh-mansoor/40-days-to-nowruz"
               className="text-green-600 hover:underline"
               target="_blank"
               rel="noopener noreferrer"
