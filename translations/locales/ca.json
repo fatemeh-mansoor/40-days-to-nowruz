@@ -1,0 +1,17 @@
+{
+  "lang": "ca",
+  "dir": "ltr",
+  "title": "Compte Enrere per Nowruz",
+  "subtitle": "40 Dies per a la Primavera",
+  "description": "Prepara't per Nowruz amb tasques diàries de neteja de primavera i celebració",
+  "daysRemaining": "dies restants",
+  "dayCompleted": "Dia completat!",
+  "markComplete": "Marcar com a completat",
+  "markIncomplete": "Marcar com a incomplet",
+  "selectLanguage": "Seleccionar idioma",
+  "previousDay": "Dia Anterior",
+  "nextDay": "Dia Següent",
+  "notYetUnlocked": "Aquest dia es desbloquejarà el",
+  "springEquinox": "Equinocci de Primavera",
+  "currentDay": "Dia Actual"
+}

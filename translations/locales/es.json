@@ -1,0 +1,17 @@
+{
+  "lang": "es",
+  "dir": "ltr",
+  "title": "Cuenta Regresiva para Nowruz",
+  "subtitle": "40 Días para la Primavera",
+  "description": "Prepárate para Nowruz con tareas diarias de limpieza de primavera y celebración",
+  "daysRemaining": "días restantes",
+  "dayCompleted": "¡Día completado!",
+  "markComplete": "Marcar como completado",
+  "markIncomplete": "Marcar como incompleto",
+  "selectLanguage": "Seleccionar idioma",
+  "previousDay": "Día Anterior",
+  "nextDay": "Día Siguiente",
+  "notYetUnlocked": "Este día se desbloqueará el",
+  "springEquinox": "Equinoccio de Primavera",
+  "currentDay": "Día Actual"
+}

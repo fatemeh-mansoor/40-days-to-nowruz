@@ -1,0 +1,17 @@
+{
+  "lang": "fa",
+  "dir": "rtl",
+  "title": "شمارش معکوس نوروز",
+  "subtitle": "۴۰ روز تا بهار",
+  "description": "با انجام کارهای روزانه خانه‌تکانی و آماده‌سازی جشن، برای نوروز آماده شوید",
+  "daysRemaining": "روز مانده",
+  "dayCompleted": "روز انجام شد!",
+  "markComplete": "علامت‌گذاری به عنوان انجام شده",
+  "markIncomplete": "علامت‌گذاری به عنوان انجام نشده",
+  "selectLanguage": "انتخاب زبان",
+  "previousDay": "روز قبل",
+  "nextDay": "روز بعد",
+  "notYetUnlocked": "این روز باز می‌شود در",
+  "springEquinox": "اعتدال بهاری",
+  "currentDay": "امروز"
+}
