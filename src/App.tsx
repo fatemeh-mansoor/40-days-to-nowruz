@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useI18n } from './hooks/useI18n';
-import { isDayCompleted, toggleDayCompleted } from './utils/storage';
+import { isDayCompleted, toggleDayCompleted, clearAllCompleted } from './utils/storage';
 import { getCurrentDayNumber, getDaysUntilNowruz } from './utils/dateUtils';
 import { Header } from './components/Header';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
@@ -12,15 +12,15 @@ import { DayCardCentered } from './components/DayCardCentered';
  */
 export function App() {
   const { language, setLanguage, translations, taskList, isLoading } = useI18n();
-  
+
   // Track completion state to trigger re-renders
   const [_, setCompletionVersion] = useState(0);
-  
+
   // Track which day to display
   const [displayDay, setDisplayDay] = useState<number>(() => {
     const currentDay = getCurrentDayNumber();
     const daysUntil = getDaysUntilNowruz();
-    
+
     if (daysUntil > 40) {
       return 1;
     } else if (currentDay !== null && currentDay >= 1 && currentDay <= 40) {
@@ -34,6 +34,13 @@ export function App() {
   const handleToggleComplete = (dayNumber: number) => {
     toggleDayCompleted(dayNumber);
     setCompletionVersion(v => v + 1);
+  };
+
+  const handleResetAll = () => {
+    if (window.confirm(translations.resetAll + '?')) {
+      clearAllCompleted();
+      setCompletionVersion(v => v + 1);
+    }
   };
 
   const handlePrevious = () => {
@@ -63,10 +70,10 @@ export function App() {
 
   const currentDayNumber = getCurrentDayNumber();
   const isCurrentDay = currentDayNumber === displayDay;
-  
+
   // Get the task for the display day
   const dayTask = taskList.days.find(d => d.day === displayDay);
-  
+
   if (!dayTask) {
     return <div>Error: Task not found for day {displayDay}</div>;
   }
@@ -105,7 +112,7 @@ export function App() {
             isCompleted={isDayCompleted(displayDay)}
             onToggleComplete={handleToggleComplete}
             onPrevious={handlePrevious}
-            onNext= {handleNext}
+            onNext={handleNext}
             markCompleteText={translations.markComplete}
             markIncompleteText={translations.markIncomplete}
             dayCompletedText={translations.dayCompleted}
@@ -128,6 +135,21 @@ export function App() {
             </span>
           </div>
         </div>
+
+
+        {/* only show reset if there is at least one completed day */}
+        {
+          taskList.days.some((_, i) => isDayCompleted(i + 1)) && (
+            <div className="mt-8 text-center">
+              <button
+                onClick={handleResetAll}
+                className="px-4 py-2 text-sm bg-red-500 hover:bg-red-600 text-white rounded-lg transition-colors shadow-sm"
+              >
+                {translations.resetAll}
+              </button>
+            </div>)
+        }
+
 
         {/* Footer */}
         <footer className="mt-12 text-center text-sm text-gray-500">

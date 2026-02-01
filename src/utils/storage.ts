@@ -58,3 +58,14 @@ export function toggleDayCompleted(dayNumber: number): boolean {
   setDayCompleted(dayNumber, newStatus);
   return newStatus;
 }
+
+/**
+ * Clear all completed days
+ */
+export function clearAllCompleted(): void {
+  try {
+    localStorage.removeItem(STORAGE_KEY);
+  } catch (error) {
+    console.error('Error clearing localStorage:', error);
+  }
+}

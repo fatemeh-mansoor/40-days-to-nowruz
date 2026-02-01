@@ -14,5 +14,6 @@
   "nextDay": "Dia Següent",
   "notYetUnlocked": "Aquest dia es desbloquejarà el",
   "springEquinox": "Equinocci de Primavera",
-  "currentDay": "Dia Actual"
+  "currentDay": "Dia Actual",
+  "resetAll": "Restablir Totes les Tasques"
 }

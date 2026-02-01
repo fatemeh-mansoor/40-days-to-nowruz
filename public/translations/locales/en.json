@@ -13,5 +13,6 @@
   "nextDay": "Next Day",
   "notYetUnlocked": "This day will unlock on",
   "springEquinox": "Spring Equinox",
-  "currentDay": "Current Day"
+  "currentDay": "Current Day",
+  "resetAll": "Reset All Tasks"
 }

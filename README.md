@@ -1,6 +1,9 @@
 # Nowruz Countdown
 
-A 40-day countdown to Nowruz (Persian New Year) with daily spring preparation tasks. Built with React, TypeScript, Vite, and Tailwind CSS.
+https://40daystonowruz.com/
+
+A 40-day countdown to Nowruz (Persian New Year) with daily spring preparation tasks. 
+Built(Mostly through vibe coding 🤖) with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Features
 
