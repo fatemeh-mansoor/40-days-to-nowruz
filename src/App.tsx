@@ -105,7 +105,7 @@ export function App() {
             isCompleted={isDayCompleted(displayDay)}
             onToggleComplete={handleToggleComplete}
             onPrevious={handlePrevious}
-            onNext={import.meta.env.DEV ? handleNext : undefined}
+            onNext= {handleNext}
             markCompleteText={translations.markComplete}
             markIncompleteText={translations.markIncomplete}
             dayCompletedText={translations.dayCompleted}
