@@ -88,10 +88,12 @@ export function App() {
 
         {/* Header */}
         <Header
-          title={translations.title}
-          description={translations.description}
+          taskListName={taskList.name}
+          taskListDescription={taskList.description}
           daysRemainingText={translations.daysRemaining}
           springEquinoxText={translations.springEquinox}
+          locale={translations.locale}
+          timeZone={translations.timeZone}
         />
 
         {/* Main Card - Single Day View */}

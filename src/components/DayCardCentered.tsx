@@ -1,4 +1,5 @@
 import { isDayAccessible } from '../utils/dateUtils';
+import { linkify } from '../utils/linkify';
 
 interface DayCardCenteredProps {
   day: number;
@@ -123,7 +124,7 @@ export function DayCardCentered({
           </h2>
 
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-            {description}
+            {linkify(description)}
           </p>
 
           {/* Completion Status */}

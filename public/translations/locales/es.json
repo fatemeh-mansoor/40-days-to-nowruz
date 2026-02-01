@@ -1,9 +1,10 @@
 {
   "lang": "es",
   "dir": "ltr",
+  "locale": "es-ES",
+  "timeZone": "Europe/Madrid",
   "title": "Cuenta Regresiva para Nowruz",
   "subtitle": "40 Días para la Primavera",
-  "description": "Prepárate para Nowruz con tareas diarias de limpieza de primavera y celebración",
   "daysRemaining": "días restantes",
   "dayCompleted": "¡Día completado!",
   "markComplete": "Marcar como completado",

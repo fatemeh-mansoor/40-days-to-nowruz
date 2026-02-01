@@ -11,9 +11,10 @@ export type Language = 'en' | 'fa' | 'es' | 'ca';
 export interface TranslationData {
   lang: Language;
   dir: 'ltr' | 'rtl';
+  locale?: string;
+  timeZone?: string;
   title: string;
   subtitle: string;
-  description: string;
   daysRemaining: string;
   dayCompleted: string;
   markComplete: string;
@@ -32,6 +33,8 @@ export interface TranslationData {
 export interface TaskList {
   id: string;
   mainLanguage: string;
+  name: string;
+  description: string;
   days: Array<{
     day: number;
     title: string;
@@ -129,8 +132,7 @@ export function useI18n() {
         
         // Merge main data with translations
         const mergedDays = mainData.days.map((day: any) => {
-          const dayKey = `day${day.day}`;
-          const translation = translationData?.[dayKey];
+          const translation = translationData?.days?.find((d: any) => d.day === day.day);
           
           return {
             day: day.day,
@@ -143,6 +145,8 @@ export function useI18n() {
           setTaskList({
             id: mainData.id,
             mainLanguage: mainData.mainLanguage,
+            name: translationData?.name || mainData.name,
+            description: translationData?.description || mainData.description,
             days: mergedDays
           });
         }

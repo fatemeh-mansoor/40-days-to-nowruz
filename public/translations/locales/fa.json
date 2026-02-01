@@ -1,9 +1,10 @@
 {
   "lang": "fa",
   "dir": "rtl",
+  "locale": "fa-IR",
+  "timeZone": "Asia/Tehran",
   "title": "شمارش معکوس نوروز",
   "subtitle": "۴۰ روز تا بهار",
-  "description": "با انجام کارهای روزانه خانه‌تکانی و آماده‌سازی جشن، برای نوروز آماده شوید",
   "daysRemaining": "روز مانده",
   "dayCompleted": "روز انجام شد!",
   "markComplete": "علامت‌گذاری به عنوان انجام شده",

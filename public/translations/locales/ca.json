@@ -1,9 +1,10 @@
 {
   "lang": "ca",
   "dir": "ltr",
+  "locale": "ca-ES",
+  "timeZone": "Europe/Madrid",
   "title": "Compte Enrere per Nowruz",
   "subtitle": "40 Dies per a la Primavera",
-  "description": "Prepara't per Nowruz amb tasques diàries de neteja de primavera i celebració",
   "daysRemaining": "dies restants",
   "dayCompleted": "Dia completat!",
   "markComplete": "Marcar com a completat",

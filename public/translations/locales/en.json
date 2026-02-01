@@ -1,9 +1,9 @@
 {
   "lang": "en",
   "dir": "ltr",
+  "locale": "en-US",
   "title": "Nowruz Countdown",
   "subtitle": "40 Days to Spring",
-  "description": "Prepare for Nowruz with daily spring cleaning and celebration tasks",
   "daysRemaining": "days remaining",
   "dayCompleted": "Day completed!",
   "markComplete": "Mark as complete",

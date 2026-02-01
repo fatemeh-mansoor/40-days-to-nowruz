@@ -1,162 +1,206 @@
 {
-  "day1": {
-    "title": "Intention and Decluttering",
-    "description": "The Persian 'Khaneh-Tekani' (House Shaking) symbolizes casting out winter's darkness. Start small—clean just one drawer or shelf today."
-  },
-  "day2": {
-    "title": "Donating Excess Items",
-    "description": "Separate items you haven't used in a year to donate; refreshing your home's energy begins with generosity."
-  },
-  "day3": {
-    "title": "Clean Mirrors and Frames",
-    "description": "The mirror is a symbol of light and reflection in Persian culture. Polish all mirrors and family photo frames."
-  },
-  "day4": {
-    "title": "Organize the Spice Cabinet",
-    "description": "Discard old spices and wipe down the jars. The scent of saffron and cardamom should fill your kitchen."
-  },
-  "day5": {
-    "title": "Refresh Light Textiles",
-    "description": "Wash sheer curtains and cushion covers to bring a scent of freshness into every room."
-  },
-  "day6": {
-    "title": "Clean Light Fixtures",
-    "description": "Lighting is key for the New Year. Clean the crystals and glass of your lamps so the house glows brightly."
-  },
-  "day7": {
-    "title": "Plant Care",
-    "description": "Remove dry leaves and nourish the soil so your plants are ready to welcome the spring."
-  },
-  "day8": {
-    "title": "Organize the Library",
-    "description": "Dust your books. Set aside a place of honor for the Divan of Hafez and the Quran (or your book of wisdom)."
-  },
-  "day9": {
-    "title": "Living Room Windows",
-    "description": "Clean the glass so 'Uncle Nowruz' doesn't stay outside! Sunlight should stream directly into the house."
-  },
-  "day10": {
-    "title": "Plan the Samanoo",
-    "description": "Samanoo symbolizes blessing and power. If making it from scratch, soak the wheat today (it takes 3 days to sprout)."
-  },
-  "day11": {
-    "title": "Prepare the Samanoo",
-    "description": "Extract the juice from sprouted wheat and mix with flour. This traditional sweet pudding requires patience and stirring."
-  },
-  "day12": {
-    "title": "Clean the Refrigerator",
-    "description": "Wipe down shelves and make room for the fruits and traditional sweets of the holiday season."
-  },
-  "day13": {
-    "title": "Closet Organization (Part 1)",
-    "description": "Pack away heavy winter coats and sweaters in garment bags to clear space."
-  },
-  "day14": {
-    "title": "Closet Organization (Part 2)",
-    "description": "Bring out your spring clothes, organize hangers, and add a fresh scent to the drawers."
-  },
-  "day15": {
-    "title": "Deep Clean the Stove",
-    "description": "The stove represents the warmth of the home. Remove all grease stains using baking soda and vinegar."
-  },
-  "day16": {
-    "title": "Refresh Table Linens",
-    "description": "Wash small tablecloths and runners to renew the look of your dining area."
-  },
-  "day17": {
-    "title": "Clean the Entrance",
-    "description": "Organize the shoe rack and wipe down the front door; it’s the first thing your guests will see."
-  },
-  "day18": {
-    "title": "Under the Furniture",
-    "description": "Vacuum the dust that has accumulated over the year under sofas and heavy furniture."
-  },
-  "day19": {
-    "title": "Plant the Sabzeh",
-    "description": "If you want wheat sprouts, today is the ideal day to start soaking them so they are vibrant green by Nowruz."
-  },
-  "day20": {
-    "title": "Small Appliances",
-    "description": "Clean the kettle, toaster, and microwave. Your daily kitchen tools should be spotless."
-  },
-  "day21": {
-    "title": "Wash Floor Mats",
-    "description": "Wash the bathroom and entry mats or replace them if they are worn out."
-  },
-  "day22": {
-    "title": "Polish Guest Dishes",
-    "description": "Clean and polish the crystal or silverware you save for special guests and the New Year dinner."
-  },
-  "day23": {
-    "title": "Buy New Clothes",
-    "description": "Follow the tradition of 'wearing something new'—get a new garment, even if small, for the moment of transition."
-  },
-  "day24": {
-    "title": "Spot Clean Walls",
-    "description": "Wipe away fingerprints and scuffs on the walls, especially around light switches."
-  },
-  "day25": {
-    "title": "Prepare Senjed and Somaq",
-    "description": "Senjed (love) and Somaq (patience) are vital. Select the most beautiful ones for your table."
-  },
-  "day26": {
-    "title": "Document Filing",
-    "description": "Discard old papers and organize important documents to start the year with order."
-  },
-  "day27": {
-    "title": "Deep Clean Floors",
-    "description": "Mop and polish all floors in the house with a fresh-scented cleaner."
-  },
-  "day28": {
-    "title": "Prepare Garlic and Vinegar",
-    "description": "Seer (health) and Serkeh (serenity) should be placed in decorative bowls for the Haft-Sin."
-  },
-  "day29": {
-    "title": "Door Frames",
-    "description": "Dust the tops of door frames, a place that is often forgotten during regular cleaning."
-  },
-  "day30": {
-    "title": "Select Red Apples",
-    "description": "The apple (Seeb) is a symbol of beauty. Look for perfect, shiny red apples for your display."
-  },
-  "day31": {
-    "title": "Polish the Sink",
-    "description": "Deep clean the kitchen sink until it shines like a mirror for the final countdown."
-  },
-  "day32": {
-    "title": "Get the Hyacinth",
-    "description": "The hyacinth flower (Sonbol) heralds spring. Choose one with your favorite color and scent."
-  },
-  "day33": {
-    "title": "Prepare Shiny Coins",
-    "description": "Coins (Sekeh) symbolize prosperity. Clean a few bright coins to place on the table."
-  },
-  "day34": {
-    "title": "The Haft-Sin Mirror",
-    "description": "Carefully polish the main mirror that will reflect your face at the moment of the New Year."
-  },
-  "day35": {
-    "title": "Paint the Eggs",
-    "description": "Decorate eggs with bright colors—a perfect activity to enjoy with family or children."
-  },
-  "day36": {
-    "title": "Water and Life",
-    "description": "Water represents purity. Prepare a bowl with fresh, clean water (and goldfish if desired) for your table."
-  },
-  "day37": {
-    "title": "Set the Foundation",
-    "description": "Lay out your traditional fabrics (Termeh) and begin arranging the Haft-Sin bowls."
-  },
-  "day38": {
-    "title": "Sweets and Nuts",
-    "description": "Arrange traditional sweets like chickpea cookies (Nokhodchi) on your serving platters."
-  },
-  "day39": {
-    "title": "Final Haft-Sin Touches",
-    "description": "Place the Sabzeh, Samanoo, and books. Prepare the candles for the final moment."
-  },
-  "day40": {
-    "title": "Happy Nowruz!",
-    "description": "Burn wild rue (Espand), dress in your new clothes, and celebrate the arrival of spring with loved ones."
-  }
+  "name": "Home Purification & Nowruz Preparation",
+  "description": "A 40-day guide for 'Khoune-Tekani' (Spring Cleaning) and setting up the 'Haft-Sin' table, focusing on ancient Persian traditions and national rites.",
+  "days": [
+    {
+      "day": 1,
+      "title": "Beginning the Purification from Closets",
+      "description": "Start your spring cleaning by letting go of one small closet or drawer. Discard unused tools to make space for the Fravahars (ancestral spirits) to soar through your home. Learn more: https://en.wikipedia.org/wiki/Fravashi"
+    },
+    {
+      "day": 2,
+      "title": "Donating Surplus Belongings",
+      "description": "Separate things you no longer need. Giving these items to others gladdens the heart and spreads goodness throughout the world."
+    },
+    {
+      "day": 3,
+      "title": "Polishing Mirrors and Frames",
+      "description": "Clean your mirrors and family portraits. The mirror is a symbol of light and truthfulness and must shine brightly for the New Year."
+    },
+    {
+      "day": 4,
+      "title": "Organizing Seasonings",
+      "description": "Discard old spices and wipe down the shelves. The fresh scent of herbs should never be mixed with the smell of staleness."
+    },
+    {
+      "day": 5,
+      "title": "Washing Light Curtains",
+      "description": "Wash sheer curtains and hang them while damp so the scent of cleanliness and novelty fills the room."
+    },
+    {
+      "day": 6,
+      "title": "Cleaning the Lamps",
+      "description": "Clean every glass and crystal of your lamps one by one. The house must be full of 'Forough' (radiance) during the festival nights."
+    },
+    {
+      "day": 7,
+      "title": "Tending to the Plants",
+      "description": "Nourish the soil in your pots and remove dry leaves. Plants also move toward spring alongside us."
+    },
+    {
+      "day": 8,
+      "title": "Dusting the Library, Shahnameh, and Hafez",
+      "description": "Dust your books and pick a place for the Shahnameh (The Book of Kings) and the Divan of Hafez on the Nowruz table. As the great Ferdowsi says: 'They scattered jewels on Jamshid... and called that day the New Day (Nowruz).' https://en.wikipedia.org/wiki/Shahnameh"
+    },
+    {
+      "day": 9,
+      "title": "Cleaning Living Room Windows",
+      "description": "Clean the glass so the 'Sheed' (radiant light) of the spring sun shines perfectly into the house. A clean window opens the heart."
+    },
+    {
+      "day": 10,
+      "title": "Essential Fridge Cleaning",
+      "description": "Take out all fridge shelves and wash them. Remove old food to make room for fresh holiday feasts."
+    },
+    {
+      "day": 11,
+      "title": "Storing Winter Clothing",
+      "description": "Gather warm, woolly garments and put them in storage. It is time for the closets to be released from the weight of winter."
+    },
+    {
+      "day": 12,
+      "title": "Organizing Spring Attire",
+      "description": "Bring out light and bright-colored clothes. Joyful colors transform the human soul for the New Year."
+    },
+    {
+      "day": 13,
+      "title": "Cleaning the Hearth (The Stove)",
+      "description": "Polish the stove until it looks brand new. This is the heart of the kitchen and must be ready to cook the festival meals."
+    },
+    {
+      "day": 14,
+      "title": "Washing Cushion Covers and Runners",
+      "description": "Wash small cushions and tablecloths. These small changes completely refresh the face of the home."
+    },
+    {
+      "day": 15,
+      "title": "Organizing the Threshold",
+      "description": "Clear the shoe rack and wipe the entrance door. The first place a guest sees should be adorned and welcoming."
+    },
+    {
+      "day": 16,
+      "title": "Dusting Under Beds and Sofas",
+      "description": "Vacuum the places that were hard to reach during the year. No dust should remain in the hidden corners of the house."
+    },
+    {
+      "day": 17,
+      "title": "Cleaning Walls and Light Switches",
+      "description": "Wipe stains off the walls and attend to the light switches. When small details are clean, the whole house suddenly shines."
+    },
+    {
+      "day": 18,
+      "title": "Maintaining Kitchen Appliances",
+      "description": "Thoroughly descale and clean the microwave, tea maker, and other appliances. Kitchen devices must be ready for the busy holiday days."
+    },
+    {
+      "day": 19,
+      "title": "Soaking Seeds for Sabzeh",
+      "description": "If you want wheat sprouts (Sabzeh), start today. Watching seeds turn green gives a sense of life. https://youtu.be/mfWr2yTw4pM?si=_4ozN5gX3Og4MqV5"
+    },
+    {
+      "day": 20,
+      "title": "Washing Hosting Dishware",
+      "description": "Wash and dry the beautiful guest sets that were in the cabinets to prepare for hosting loved ones."
+    },
+    {
+      "day": 21,
+      "title": "Tending to Shoes and Bags",
+      "description": "Wipe down shoes, polish if needed, and organize bags. From head to toe, we must be adorned for the New Year."
+    },
+    {
+      "day": 22,
+      "title": "Cleaning the Bathroom and Toilet",
+      "description": "Give the bathroom and toilet a thorough cleaning. Make everything sparkle and replace with fresh, fragrant towels."
+    },
+    {
+      "day": 23,
+      "title": "Preparing Senjed and Sumac",
+      "description": "Clean and set aside the dried oleaster (Senjed) and sumac. Each is a beautiful symbol of our 'Haft-Sin' table."
+    },
+    {
+      "day": 24,
+      "title": "Buying Candles and Tulips for the Table",
+      "description": "To illuminate the table, procure beautiful candles or colorful tulips. Light is a symbol of victory over darkness."
+    },
+    {
+      "day": 25,
+      "title": "Final Floor Cleansing",
+      "description": "Clean the floors with a fragrant wash. The aroma of cleanliness should fill the entire space."
+    },
+    {
+      "day": 26,
+      "title": "Organizing Photo Albums",
+      "description": "Take a look at old photos and reminisce about happy memories. Nowruz is a time to connect with our roots."
+    },
+    {
+      "day": 27,
+      "title": "Preparing Garlic and Vinegar",
+      "description": "Get the garlic and vinegar ready. Garlic symbolizes guarding the body, and vinegar represents patience and endurance."
+    },
+    {
+      "day": 28,
+      "title": "Buying Fresh Red Apples",
+      "description": "Select ripe, red apples. The apple is a symbol of beauty, health, and prosperity."
+    },
+    {
+      "day": 29,
+      "title": "Planning the Festival of Red Fire",
+      "description": "Seven days until 'Chaharshanbe Suri'! If you want to host a gathering, coordinate with relatives and friends starting today. https://en.wikipedia.org/wiki/Chaharshanbe_Suri"
+    },
+    {
+      "day": 30,
+      "title": "Samanu Making (Step 1: Soaking Wheat)",
+      "description": "Clean the high-quality wheat and let it soak to sprout. This is the beginning of creating one of the most powerful 'Sins' (elements) of the table. https://en.wikipedia.org/wiki/Samanu, check this video on how to make it: https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
+    },
+    {
+      "day": 31,
+      "title": "Tending to Wheat Sprouts",
+      "description": "Check the Samanu wheat regularly. Don't let them dry out; they are preparing the juice of life for the Samanu."
+    },
+    {
+      "day": 32,
+      "title": "Tending to Samanu Sprouts",
+      "description": "Check the wheat sprouts regularly and water them. The growth of these sprouts heralds the arrival of spring."
+    },
+    {
+      "day": 33,
+      "title": "Polishing the Mirror and Haft-Sin Glass",
+      "description": "Shine the mirror and prepare the beautiful glasses for the layout so they glow on the Nowruz table."
+    },
+    {
+      "day": 34,
+      "title": "Samanu Making (Step 2: Cooking)",
+      "description": "Now that the sprouts have turned silver, extract their juice and cook it with flour until your Samanu (wheat germ pudding) is ready. checkout again this video if needed: https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
+    },
+    {
+      "day": 35,
+      "title": "Preparation for the Night of Fire",
+      "description": "Tomorrow is Chaharshanbe Suri! Prepare the nuts and snacks for a night full of passion and energy."
+    },
+    {
+      "day": 36,
+      "title": "Festival of Red Fire (Chaharshanbe Suri)",
+      "description": "Tonight is for jumping over the fire. Give your yellowness (sickness) to the fire and take back its redness (vitality/health)."
+    },
+    {
+      "day": 37,
+      "title": "Preparing for Sabzi-Polo with Fish",
+      "description": "For the New Year's Eve dinner of Sabzi-Polo (herb rice) with fish, wash the fresh herbs and prepare the fish. link: https://en.wikipedia.org/wiki/Sabzi_polo"
+    },
+    {
+      "day": 38,
+      "title": "Arranging Sweets and Nuts",
+      "description": "Arrange delicious Persian treats and 'Ajil' (nuts) in special dishes. The house now smells of spring."
+    },
+    {
+      "day": 39,
+      "title": "Cooking Sabzi-Polo with Fish",
+      "description": "Complete the last meal of the year with Sabzi-Polo (herb rice) and fish. The scent of fresh herbs and garlic will fill the home. https://youtu.be/ERKLw_B8Weo?si=1JXSuZIzFroSSPCA"
+    },
+    {
+      "day": 40,
+      "title": "Nowruz and the Turning of the Year",
+      "description": "Burn wild rue (Espand) and frankincense, wear new clothes, and sit by the Haft-Sin table. The 7 'S' symbols are: 1. Sabzeh (Rebirth) 2. Samanu (Power/Strength) 3. Senjed (Love/Wisdom) 4. Seer (Health/Medicine) 5. Seeb (Beauty) 6. Somaq (Sunrise/Patience) 7. Serkeh (Immortal Patience). Nowruz Pirooz! https://en.wikipedia.org/wiki/Haft-sin"
+    }
+  ]
 }

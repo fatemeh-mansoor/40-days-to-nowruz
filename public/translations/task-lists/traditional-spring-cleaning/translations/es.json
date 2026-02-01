@@ -1,162 +1,206 @@
 {
-  "day1": {
-    "title": "Intención de Limpieza y Desapego",
-    "description": "La limpieza de primavera simboliza expulsar la oscuridad del invierno. Comienza hoy limpiando solo un cajón o un estante pequeño."
-  },
-  "day2": {
-    "title": "Donar Objetos Sobrantes",
-    "description": "Separa lo que no hayas usado en un año para donarlo; renovar la energía del hogar comienza con la generosidad."
-  },
-  "day3": {
-    "title": "Limpiar Espejos y Cuadros",
-    "description": "El espejo es símbolo de luz en la cultura persa. Abrillanta todos los espejos y marcos de fotos familiares."
-  },
-  "day4": {
-    "title": "Organizar las Especias",
-    "description": "Desecha especias viejas y limpia los botes. El aroma a azafrán y cardamomo debe llenar tu cocina."
-  },
-  "day5": {
-    "title": "Refrescar Textiles Ligeros",
-    "description": "Lava las cortinas finas y fundas de cojines para que el olor a frescura entre en cada habitación."
-  },
-  "day6": {
-    "title": "Limpiar Lámparas",
-    "description": "La iluminación es clave para el año nuevo. Limpia los cristales de las lámparas para que la casa brille con fuerza."
-  },
-  "day7": {
-    "title": "Cuidado de Plantas",
-    "description": "Quita las hojas secas y abona la tierra para que tus plantas estén listas para recibir la primavera."
-  },
-  "day8": {
-    "title": "Organizar la Biblioteca",
-    "description": "Limpia el polvo de los libros. Reserva un lugar de honor para el Diván de Hafez y el Corán."
-  },
-  "day9": {
-    "title": "Ventanas del Salón",
-    "description": "Limpia los cristales para recibir al 'Amo Nowruz'. La luz del sol debe entrar directamente a la casa."
-  },
-  "day10": {
-    "title": "Planificar el Samanoo",
-    "description": "El Samanoo simboliza la bendición. Si lo harás casero, pon el trigo en remojo hoy (tarda 3 días en germinar)."
-  },
-  "day11": {
-    "title": "Preparar el Samanoo",
-    "description": "Extrae el jugo del trigo germinado y mézclalo con harina integral. Su cocción lenta requiere paciencia y cariño."
-  },
-  "day12": {
-    "title": "Limpiar la Nevera",
-    "description": "Limpia los estantes y haz espacio para las frutas y los dulces tradicionales de las fiestas."
-  },
-  "day13": {
-    "title": "Armario de Ropa (Parte 1)",
-    "description": "Guarda la ropa pesada de invierno en fundas y despeja los armarios."
-  },
-  "day14": {
-    "title": "Armario de Ropa (Parte 2)",
-    "description": "Saca la ropa de primavera, organiza las perchas y perfuma los cajones."
-  },
-  "day15": {
-    "title": "Limpiar los Fogones",
-    "description": "La cocina representa el calor del hogar. Elimina cualquier mancha de grasa con bicarbonato y vinagre."
-  },
-  "day16": {
-    "title": "Textiles de Mesa",
-    "description": "Lava los manteles y caminos de mesa pequeños para renovar el aspecto del comedor."
-  },
-  "day17": {
-    "title": "Limpiar la Entrada",
-    "description": "Organiza el zapatero y limpia la puerta principal; es la primera impresión para tus invitados."
-  },
-  "day18": {
-    "title": "Bajo los Sofás",
-    "description": "Aspira el polvo acumulado durante el año debajo de los sofás y muebles pesados."
-  },
-  "day19": {
-    "title": "Plantar el Sabzeh",
-    "description": "Si quieres brotes de trigo, hoy es el día ideal para empezar a remojarlos para que estén verdes en Nowruz."
-  },
-  "day20": {
-    "title": "Pequeños Electrodomésticos",
-    "description": "Limpia la tetera, tostadora y microondas. Los utensilios de uso diario deben relucir."
-  },
-  "day21": {
-    "title": "Lavar Alfombrillas",
-    "description": "Lava las alfombrillas del baño y de la entrada o renuévalas si están gastadas."
-  },
-  "day22": {
-    "title": "Vajilla de Invitados",
-    "description": "Limpia y abrillanta la vajilla de cristal o plata que guardas para las visitas especiales."
-  },
-  "day23": {
-    "title": "Comprar Ropa Nueva",
-    "description": "Sigue la tradición de 'estrenar' algo: compra una prenda nueva, aunque sea pequeña, para el cambio de año."
-  },
-  "day24": {
-    "title": "Limpiar Paredes",
-    "description": "Elimina marcas de manos y roces en las paredes, especialmente cerca de los interruptores."
-  },
-  "day25": {
-    "title": "Preparar Senjed y Somaq",
-    "description": "El Senjed (amor) y el Somaq (paciencia) son vitales. Selecciona los más bonitos para tu mesa."
-  },
-  "day26": {
-    "title": "Documentos y Papeles",
-    "description": "Tira papeles viejos y organiza tus documentos importantes para empezar el año con orden."
-  },
-  "day27": {
-    "title": "Limpieza de Suelos",
-    "description": "Friega y pule todos los suelos de la casa con un limpiador con aroma fresco."
-  },
-  "day28": {
-    "title": "Preparar Ajo y Vinagre",
-    "description": "El ajo (salud) y el vinagre (serenidad) deben colocarse en recipientes decorativos para el Haft-Sin."
-  },
-  "day29": {
-    "title": "Marcos de Puertas",
-    "description": "Limpia la parte superior de los marcos de las puertas, un lugar que suele olvidarse."
-  },
-  "day30": {
-    "title": "Elegir Manzanas Rojas",
-    "description": "La manzana (Seeb) es símbolo de belleza. Busca unas manzanas rojas perfectas y brillantes."
-  },
-  "day31": {
-    "title": "Brillo en el Fregadero",
-    "description": "Limpia el fregadero de la cocina a fondo hasta que brille como un espejo."
-  },
-  "day32": {
-    "title": "Comprar el Jacinto",
-    "description": "La flor del jacinto (Sonbol) anuncia la primavera. Elige una con tu color y aroma preferido."
-  },
-  "day33": {
-    "title": "Preparar Monedas",
-    "description": "Las monedas (Sekeh) simbolizan prosperidad. Limpia unas cuantas monedas brillantes para la mesa."
-  },
-  "day34": {
-    "title": "Espejo del Haft-Sin",
-    "description": "Limpia con esmero el espejo principal que reflejará tu rostro en el momento del año nuevo."
-  },
-  "day35": {
-    "title": "Pintar Huevos",
-    "description": "Decora los huevos con colores alegres, una actividad perfecta para hacer con los niños."
-  },
-  "day36": {
-    "title": "Agua y Vida",
-    "description": "El agua es pureza. Prepara el recipiente con agua limpia y fresca para tu mesa."
-  },
-  "day37": {
-    "title": "Montaje de la Mesa",
-    "description": "Coloca las telas tradicionales (Termeh) y empieza a distribuir los cuencos del Haft-Sin."
-  },
-  "day38": {
-    "title": "Dulces y Frutos Secos",
-    "description": "Organiza los dulces típicos como los de garbanzo (Nokhodchi) en las bandejas de servir."
-  },
-  "day39": {
-    "title": "Completar el Haft-Sin",
-    "description": "Coloca el Sabzeh, el Samanoo y los libros. Prepara las velas para el momento final."
-  },
-  "day40": {
-    "title": "¡Feliz Nowruz!",
-    "description": "Quema incienso (Espand), vístete de fiesta y celebra la llegada de la primavera con tus seres queridos."
-  }
+  "name": "Purificación del Hogar y Preparación para Nowruz",
+  "description": "Una guía de 40 días para el 'Khoune-Tekani' (limpieza de primavera) y la preparación de la mesa de 'Haft-Sin', centrada en antiguas tradiciones persas y rituales nacionales.",
+  "days": [
+    {
+      "day": 1,
+      "title": "Comenzar la Purificación desde los Armarios",
+      "description": "Empieza la limpieza de primavera liberando un pequeño armario o cajón. Desecha herramientas que no uses para dejar espacio a los Fravahars (espíritus ancestrales) para que recorran tu hogar. Más información: https://es.wikipedia.org/wiki/Fravashi"
+    },
+    {
+      "day": 2,
+      "title": "Donar Pertenencias Sobrantes",
+      "description": "Separa las cosas que ya no necesitas. Donarlas alegra el corazón y esparce bondad por el mundo."
+    },
+    {
+      "day": 3,
+      "title": "Pulir Espejos y Marcos",
+      "description": "Limpia espejos y retratos familiares. El espejo simboliza la luz y la verdad, y debe brillar para el Año Nuevo."
+    },
+    {
+      "day": 4,
+      "title": "Organizar Especias",
+      "description": "Desecha especias viejas y limpia las estanterías. El aroma fresco de las hierbas no debe mezclarse con lo rancio."
+    },
+    {
+      "day": 5,
+      "title": "Lavar Cortinas Ligeras",
+      "description": "Lava las cortinas finas y cuélgalas húmedas para que el aroma a limpieza llene la habitación."
+    },
+    {
+      "day": 6,
+      "title": "Limpiar las Lámparas",
+      "description": "Limpia cada cristal de las lámparas. La casa debe llenarse de 'Forough' (resplandor) durante las noches festivas."
+    },
+    {
+      "day": 7,
+      "title": "Cuidar las Plantas",
+      "description": "Nutre la tierra y retira hojas secas. Las plantas también avanzan hacia la primavera con nosotros."
+    },
+    {
+      "day": 8,
+      "title": "Quitar el Polvo a la Biblioteca, el Shahnameh y Hafez",
+      "description": "Limpia los libros y reserva un lugar para el Shahnameh y el Diván de Hafez en la mesa de Nowruz. Como dice Ferdowsi: 'Esparcieron joyas sobre Jamshid... y llamaron a ese día el Nuevo Día (Nowruz)'. https://es.wikipedia.org/wiki/Shahnameh"
+    },
+    {
+      "day": 9,
+      "title": "Limpiar las Ventanas del Salón",
+      "description": "Limpia los cristales para que la 'Sheed' (luz radiante) del sol primaveral entre en casa."
+    },
+    {
+      "day": 10,
+      "title": "Limpieza Esencial del Frigorífico",
+      "description": "Saca y lava todas las baldas. Retira comida vieja para dejar espacio a los banquetes festivos."
+    },
+    {
+      "day": 11,
+      "title": "Guardar la Ropa de Invierno",
+      "description": "Guarda prendas de abrigo. Es hora de liberar los armarios del peso del invierno."
+    },
+    {
+      "day": 12,
+      "title": "Organizar la Ropa de Primavera",
+      "description": "Saca ropa ligera y de colores vivos. Los colores alegres transforman el alma."
+    },
+    {
+      "day": 13,
+      "title": "Limpiar el Hogar del Fuego (La Cocina)",
+      "description": "Pule la cocina hasta que parezca nueva. Es el corazón del hogar."
+    },
+    {
+      "day": 14,
+      "title": "Lavar Fundas y Caminos de Mesa",
+      "description": "Lava cojines y manteles pequeños. Estos cambios renuevan la casa."
+    },
+    {
+      "day": 15,
+      "title": "Ordenar la Entrada",
+      "description": "Ordena el zapatero y limpia la puerta. La entrada debe ser acogedora."
+    },
+    {
+      "day": 16,
+      "title": "Limpiar Bajo Camas y Sofás",
+      "description": "Aspira los rincones difíciles. No debe quedar polvo oculto."
+    },
+    {
+      "day": 17,
+      "title": "Limpiar Paredes e Interruptores",
+      "description": "Limpia manchas y detalles. Los pequeños gestos hacen brillar la casa."
+    },
+    {
+      "day": 18,
+      "title": "Mantenimiento de Electrodomésticos",
+      "description": "Descalcifica y limpia microondas y pequeños electrodomésticos."
+    },
+    {
+      "day": 19,
+      "title": "Poner Semillas en Remojo para el Sabzeh",
+      "description": "Si quieres brotes de trigo, empieza hoy. https://youtu.be/mfWr2yTw4pM?si=_4ozN5gX3Og4MqV5"
+    },
+    {
+      "day": 20,
+      "title": "Lavar la Vajilla de Invitados",
+      "description": "Lava y seca los juegos especiales para recibir a tus seres queridos."
+    },
+    {
+      "day": 21,
+      "title": "Cuidar Zapatos y Bolsos",
+      "description": "Límpialos y ordénalos. Debemos estar arreglados de pies a cabeza."
+    },
+    {
+      "day": 22,
+      "title": "Limpieza Profunda del Baño",
+      "description": "Limpia a fondo y coloca toallas limpias y perfumadas."
+    },
+    {
+      "day": 23,
+      "title": "Preparar Senjed y Sumac",
+      "description": "Limpia y reserva el senjed y el zumaque para la mesa Haft-Sin."
+    },
+    {
+      "day": 24,
+      "title": "Comprar Velas y Tulipanes",
+      "description": "Consigue velas o tulipanes para iluminar la mesa."
+    },
+    {
+      "day": 25,
+      "title": "Limpieza Final del Suelo",
+      "description": "Friega con un aroma agradable para llenar todo el hogar."
+    },
+    {
+      "day": 26,
+      "title": "Organizar Álbumes de Fotos",
+      "description": "Revisa fotos antiguas y recuerda momentos felices."
+    },
+    {
+      "day": 27,
+      "title": "Preparar Ajo y Vinagre",
+      "description": "Ten listos el ajo y el vinagre, símbolos de protección y paciencia."
+    },
+    {
+      "day": 28,
+      "title": "Comprar Manzanas Rojas Frescas",
+      "description": "Elige manzanas maduras y rojas, símbolo de belleza y salud."
+    },
+    {
+      "day": 29,
+      "title": "Planificar la Fiesta del Fuego Rojo",
+      "description": "¡Faltan siete días para Chaharshanbe Suri! https://es.wikipedia.org/wiki/Chaharshanbe_Suri"
+    },
+    {
+      "day": 30,
+      "title": "Preparar Samanu (Paso 1: Remojar el Trigo)",
+      "description": "Limpia y remoja el trigo. https://es.wikipedia.org/wiki/Samanu https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
+    },
+    {
+      "day": 31,
+      "title": "Cuidar los Brotes de Trigo",
+      "description": "Revísalos con regularidad; no dejes que se sequen."
+    },
+    {
+      "day": 32,
+      "title": "Cuidar los Brotes de Samanu",
+      "description": "Riega los brotes. Su crecimiento anuncia la primavera."
+    },
+    {
+      "day": 33,
+      "title": "Pulir el Espejo y los Recipientes Haft-Sin",
+      "description": "Hazlos brillar para la mesa de Nowruz."
+    },
+    {
+      "day": 34,
+      "title": "Preparar Samanu (Paso 2: Cocción)",
+      "description": "Extrae el jugo y cocínalo con harina. https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
+    },
+    {
+      "day": 35,
+      "title": "Preparación para la Noche del Fuego",
+      "description": "Prepara frutos secos y aperitivos."
+    },
+    {
+      "day": 36,
+      "title": "Festival del Fuego Rojo (Chaharshanbe Suri)",
+      "description": "Salta sobre el fuego y entrega tu amarillez para recibir su rojez."
+    },
+    {
+      "day": 37,
+      "title": "Preparar Sabzi-Polo con Pescado",
+      "description": "Lava las hierbas y prepara el pescado. https://es.wikipedia.org/wiki/Sabzi_polo"
+    },
+    {
+      "day": 38,
+      "title": "Organizar Dulces y Frutos Secos",
+      "description": "Coloca dulces persas y ajil en platos especiales."
+    },
+    {
+      "day": 39,
+      "title": "Cocinar Sabzi-Polo con Pescado",
+      "description": "Completa la última comida del año. https://youtu.be/ERKLw_B8Weo?si=1JXSuZIzFroSSPCA"
+    },
+    {
+      "day": 40,
+      "title": "Nowruz y el Cambio de Año",
+      "description": "Quema espand e incienso, viste ropa nueva y siéntate junto a la mesa Haft-Sin. Nowruz Pirooz! https://en.wikipedia.org/wiki/Haft-sin"
+    }
+  ]
 }
