@@ -2,45 +2,205 @@
   "name": "Purificació de la Llar i Preparació per al Nowruz",
   "description": "Una guia de 40 dies per al 'Khoune-Tekani' (neteja de primavera) i la preparació de la taula de 'Haft-Sin', centrada en antigues tradicions perses i rituals nacionals.",
   "days": [
-    { "day": 1, "title": "Inici de la Purificació pels Armaris", "description": "Comença la neteja de primavera alliberant un petit armari o calaix. Descarta allò que no uses per deixar espai als Fravahars (esperits ancestrals). Més informació: https://ca.wikipedia.org/wiki/Fravashi" },
-    { "day": 2, "title": "Donar Pertinences Sobrants", "description": "Separa les coses que ja no necessites. Donar-les escampa bondat." },
-    { "day": 3, "title": "Polir Miralls i Marcs", "description": "Neteja miralls i retrats familiars. El mirall simbolitza la llum i la veritat." },
-    { "day": 4, "title": "Organitzar Espècies", "description": "Llença espècies velles i neteja els prestatges." },
-    { "day": 5, "title": "Rentar Cortines Lleugeres", "description": "Renta les cortines fines i penja-les humides." },
-    { "day": 6, "title": "Netejar els Llums", "description": "Neteja cada cristall. La casa ha d’estar plena de 'Forough' (resplendor)." },
-    { "day": 7, "title": "Cuidar les Plantes", "description": "Nodreix la terra i retira fulles seques." },
-    { "day": 8, "title": "Treure la Pols de la Biblioteca, el Shahnameh i Hafez", "description": "Neteja els llibres i reserva un lloc per al Shahnameh i el Divan de Hafez. https://ca.wikipedia.org/wiki/Shahnameh" },
-    { "day": 9, "title": "Netejar les Finestres del Menjador", "description": "Deixa entrar la 'Sheed' (llum radiant) del sol de primavera." },
-    { "day": 10, "title": "Neteja Essencial de la Nevera", "description": "Treu i renta totes les safates." },
-    { "day": 11, "title": "Guardar la Roba d’Hivern", "description": "Guarda les peces d’abric." },
-    { "day": 12, "title": "Organitzar la Roba de Primavera", "description": "Treu roba lleugera i de colors vius." },
-    { "day": 13, "title": "Netejar la Llar del Foc (Cuina)", "description": "Poleix els fogons fins que semblin nous." },
-    { "day": 14, "title": "Rentar Fundes i Camins de Taula", "description": "Renta coixins i estovalles petites." },
-    { "day": 15, "title": "Ordenar l’Entrada", "description": "Endreça el sabater i neteja la porta." },
-    { "day": 16, "title": "Netejar Sota Llits i Sofàs", "description": "Aspira els racons difícils." },
-    { "day": 17, "title": "Netejar Parets i Interruptors", "description": "Neteja taques i petits detalls." },
-    { "day": 18, "title": "Manteniment dels Electrodomèstics", "description": "Descalcifica i neteja els aparells." },
-    { "day": 19, "title": "Posar Llavors en Remull per al Sabzeh", "description": "Comença avui si vols brots de blat. https://youtu.be/mfWr2yTw4pM?si=_4ozN5gX3Og4MqV5" },
-    { "day": 20, "title": "Rentar la Vaixella de Convidats", "description": "Prepara els jocs especials per rebre visites." },
-    { "day": 21, "title": "Cuidar Sabates i Bosses", "description": "Neteja-les i endreça-les." },
-    { "day": 22, "title": "Neteja Profunda del Bany", "description": "Deixa-ho tot brillant i amb tovalloles netes." },
-    { "day": 23, "title": "Preparar Senjed i Sumac", "description": "Reserva’ls per a la taula Haft-Sin." },
-    { "day": 24, "title": "Comprar Espelmes i Tulipes", "description": "Aporta llum i color a la taula." },
-    { "day": 25, "title": "Neteja Final del Terra", "description": "Renta el terra amb una aroma agradable." },
-    { "day": 26, "title": "Organitzar Àlbums de Fotos", "description": "Recorda moments feliços." },
-    { "day": 27, "title": "Preparar All i Vinagre", "description": "Símbols de protecció i paciència." },
-    { "day": 28, "title": "Comprar Pomes Vermelles Fresques", "description": "Símbol de bellesa i salut." },
-    { "day": 29, "title": "Planificar la Festa del Foc Roig", "description": "Falten set dies per Chaharshanbe Suri! https://ca.wikipedia.org/wiki/Chaharshanbe_Suri" },
-    { "day": 30, "title": "Preparar Samanu (Pas 1: Remullar el Blat)", "description": "Neteja i remulla el blat. https://ca.wikipedia.org/wiki/Samanu https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq" },
-    { "day": 31, "title": "Cuidar els Brots de Blat", "description": "Revisa’ls sovint." },
-    { "day": 32, "title": "Cuidar els Brots de Samanu", "description": "Regar-los anuncia la primavera." },
-    { "day": 33, "title": "Polir el Mirall i els Recipients Haft-Sin", "description": "Deixa’ls llestos per a Nowruz." },
-    { "day": 34, "title": "Preparar Samanu (Pas 2: Cocció)", "description": "Extreu el suc i cuina’l. https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq" },
-    { "day": 35, "title": "Preparació per a la Nit del Foc", "description": "Prepara fruits secs i aperitius." },
-    { "day": 36, "title": "Festival del Foc Roig (Chaharshanbe Suri)", "description": "Salta el foc i renova l’energia." },
-    { "day": 37, "title": "Preparar Sabzi-Polo amb Peix", "description": "Renta les herbes i prepara el peix. https://ca.wikipedia.org/wiki/Sabzi_polo" },
-    { "day": 38, "title": "Organitzar Dolços i Fruits Secs", "description": "La casa ja fa olor de primavera." },
-    { "day": 39, "title": "Cuinar Sabzi-Polo amb Peix", "description": "L’últim àpat de l’any. https://youtu.be/ERKLw_B8Weo?si=1JXSuZIzFroSSPCA" },
-    { "day": 40, "title": "Nowruz i el Canvi d’Any", "description": "Crema espand i encens, vesteix roba nova i seu a la taula Haft-Sin. Nowruz Pirooz! https://en.wikipedia.org/wiki/Haft-sin" }
+    {
+      "day": 1,
+      "title": "Inici de la Purificació pels Armaris",
+      "description": "Comença la neteja de primavera alliberant un petit armari o calaix. Descarta allò que no uses per deixar espai als Fravahars (esperits ancestrals). Més informació: https://ca.wikipedia.org/wiki/Fravashi"
+    },
+    {
+      "day": 2,
+      "title": "Donar Pertinences Sobrants",
+      "description": "Separa les coses que ja no necessites. Donar-les escampa bondat."
+    },
+    {
+      "day": 3,
+      "title": "Polir Miralls i Marcs",
+      "description": "Neteja miralls i retrats familiars. El mirall simbolitza la llum i la veritat."
+    },
+    {
+      "day": 4,
+      "title": "Organitzar Espècies",
+      "description": "Llença espècies velles i neteja els prestatges."
+    },
+    {
+      "day": 5,
+      "title": "Rentar Cortines Lleugeres",
+      "description": "Renta les cortines fines i penja-les humides."
+    },
+    {
+      "day": 6,
+      "title": "Netejar els Llums",
+      "description": "Neteja cada cristall. La casa ha d’estar plena de 'Forough' (resplendor)."
+    },
+    {
+      "day": 7,
+      "title": "Cuidar les Plantes",
+      "description": "Nodreix la terra i retira fulles seques."
+    },
+    {
+      "day": 8,
+      "title": "Treure la Pols de la Biblioteca, el Shahnameh i Hafez",
+      "description": "Neteja els llibres i reserva un lloc per al Shahnameh i el Divan de Hafez. https://ca.wikipedia.org/wiki/Shahnameh"
+    },
+    {
+      "day": 9,
+      "title": "Netejar les Finestres del Menjador",
+      "description": "Deixa entrar la 'Sheed' (llum radiant) del sol de primavera."
+    },
+    {
+      "day": 10,
+      "title": "Neteja Essencial de la Nevera",
+      "description": "Treu i renta totes les safates."
+    },
+    {
+      "day": 11,
+      "title": "Guardar la Roba d’Hivern",
+      "description": "Guarda les peces d’abric."
+    },
+    {
+      "day": 12,
+      "title": "Organitzar la Roba de Primavera",
+      "description": "Treu roba lleugera i de colors vius."
+    },
+    {
+      "day": 13,
+      "title": "Netejar la Llar del Foc (Cuina)",
+      "description": "Poleix els fogons fins que semblin nous."
+    },
+    {
+      "day": 14,
+      "title": "Rentar Fundes i Camins de Taula",
+      "description": "Renta coixins i estovalles petites."
+    },
+    {
+      "day": 15,
+      "title": "Ordenar l’Entrada",
+      "description": "Endreça el sabater i neteja la porta."
+    },
+    {
+      "day": 16,
+      "title": "Netejar Sota Llits i Sofàs",
+      "description": "Aspira els racons difícils."
+    },
+    {
+      "day": 17,
+      "title": "Netejar Parets i Interruptors",
+      "description": "Neteja taques i petits detalls."
+    },
+    {
+      "day": 18,
+      "title": "Manteniment dels Electrodomèstics",
+      "description": "Descalcifica i neteja els aparells."
+    },
+    {
+      "day": 19,
+      "title": "Posar Llavors en Remull per al Sabzeh",
+      "description": "Comença avui si vols brots de blat. https://youtu.be/mfWr2yTw4pM?si=_4ozN5gX3Og4MqV5"
+    },
+    {
+      "day": 20,
+      "title": "Rentar la Vaixella de Convidats",
+      "description": "Prepara els jocs especials per rebre visites."
+    },
+    {
+      "day": 21,
+      "title": "Cuidar Sabates i Bosses",
+      "description": "Neteja-les i endreça-les."
+    },
+    {
+      "day": 22,
+      "title": "Neteja Profunda del Bany",
+      "description": "Deixa-ho tot brillant i amb tovalloles netes."
+    },
+    {
+      "day": 23,
+      "title": "Preparar Senjed i Sumac",
+      "description": "Reserva’ls per a la taula Haft-Sin."
+    },
+    {
+      "day": 24,
+      "title": "Comprar Espelmes i Tulipes",
+      "description": "Aporta llum i color a la taula."
+    },
+    {
+      "day": 25,
+      "title": "Neteja Final del Terra",
+      "description": "Renta el terra amb una aroma agradable."
+    },
+    {
+      "day": 26,
+      "title": "Organitzar Àlbums de Fotos",
+      "description": "Recorda moments feliços."
+    },
+    {
+      "day": 27,
+      "title": "Preparar All i Vinagre",
+      "description": "Símbols de protecció i paciència."
+    },
+    {
+      "day": 28,
+      "title": "Comprar Pomes Vermelles Fresques",
+      "description": "Símbol de bellesa i salut."
+    },
+    {
+      "day": 29,
+      "title": "Planificar la Festa del Foc Roig",
+      "description": "Falten set dies per Chaharshanbe Suri! https://ca.wikipedia.org/wiki/Chaharshanbe_Suri"
+    },
+    {
+      "day": 30,
+      "title": "Preparar Samanu (Pas 1: Remullar el Blat)",
+      "description": "Neteja i remulla el blat. https://ca.wikipedia.org/wiki/Samanu https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
+    },
+    {
+      "day": 31,
+      "title": "Cuidar els Brots de Blat",
+      "description": "Revisa’ls sovint."
+    },
+    {
+      "day": 32,
+      "title": "Cuidar els Brots de Samanu",
+      "description": "Regar-los anuncia la primavera."
+    },
+    {
+      "day": 33,
+      "title": "Polir el Mirall i els Recipients Haft-Sin",
+      "description": "Deixa’ls llestos per a Nowruz."
+    },
+    {
+      "day": 34,
+      "title": "Preparar Samanu (Pas 2: Cocció)",
+      "description": "Extreu el suc i cuina’l. https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
+    },
+    {
+      "day": 35,
+      "title": "Preparació per a la Nit del Foc",
+      "description": "Prepara fruits secs i aperitius."
+    },
+    {
+      "day": 36,
+      "title": "Festival del Foc Roig (Chaharshanbe Suri)",
+      "description": "Salta el foc i renova l’energia."
+    },
+    {
+      "day": 37,
+      "title": "Preparar Sabzi-Polo amb Peix",
+      "description": "Renta les herbes i prepara el peix. https://ca.wikipedia.org/wiki/Sabzi_polo"
+    },
+    {
+      "day": 38,
+      "title": "Organitzar Dolços i Fruits Secs",
+      "description": "La casa ja fa olor de primavera."
+    },
+    {
+      "day": 39,
+      "title": "Cuinar Sabzi-Polo amb Peix",
+      "description": "L’últim àpat de l’any. https://youtu.be/ERKLw_B8Weo?si=1JXSuZIzFroSSPCA"
+    },
+    {
+      "day": 40,
+      "title": "Nowruz i el Canvi d’Any",
+      "description": "Crema espand i encens, vesteix roba nova i seu a la taula Haft-Sin. Nowruz Pirooz! https://en.wikipedia.org/wiki/Haft-sin"
+    }
   ]
 }
