@@ -83,9 +83,9 @@ export function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-yellow-50 flex flex-col">
-      <div className="container mx-auto px-4 py-8 max-w-6xl flex-1 flex flex-col">
-        {/* Language Switcher */}
-        <div className="flex justify-end mb-6">
+      <div className="container mx-auto px-4 py-8 max-w-6xl flex-1 flex flex-col relative">
+        {/* Language Switcher - Fixed to top right */}
+        <div className="absolute top-8 right-4 z-10">
           <LanguageSwitcher
             currentLanguage={language}
             onLanguageChange={setLanguage}
@@ -94,14 +94,16 @@ export function App() {
         </div>
 
         {/* Header */}
-        <Header
-          taskListName={taskList.name}
-          taskListDescription={taskList.description}
-          daysRemainingText={translations.daysRemaining}
-          springEquinoxText={translations.springEquinox}
-          locale={translations.locale}
-          timeZone={translations.timeZone}
-        />
+        <div className="mt-12">
+          <Header
+            taskListName={taskList.name}
+            taskListDescription={taskList.description}
+            daysRemainingText={translations.daysRemaining}
+            springEquinoxText={translations.springEquinox}
+            locale={translations.locale}
+            timeZone={translations.timeZone}
+          />
+        </div>
 
         {/* Main Card - Single Day View */}
         <main className="flex-1 flex items-center py-8">
