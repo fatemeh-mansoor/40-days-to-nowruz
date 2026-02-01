@@ -25,6 +25,7 @@ export interface TranslationData {
   notYetUnlocked: string;
   springEquinox: string;
   currentDay: string;
+  resetAll: string;
 }
 
 /**

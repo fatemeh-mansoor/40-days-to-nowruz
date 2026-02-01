@@ -37,7 +37,7 @@ export function App() {
   };
 
   const handleResetAll = () => {
-    if (window.confirm(translations.resetAll + '?')) {
+    if (window.confirm(translations?.resetAll + '?')) {
       clearAllCompleted();
       setCompletionVersion(v => v + 1);
     }
