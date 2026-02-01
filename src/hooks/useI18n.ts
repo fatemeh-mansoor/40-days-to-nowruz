@@ -22,7 +22,8 @@ export interface TranslationData {
   selectLanguage: string;
   previousDay: string;
   nextDay: string;
-  notYetUnlocked: string;
+  locked: string;
+  unlocksOn: string;
   springEquinox: string;
   currentDay: string;
   resetAll: string;

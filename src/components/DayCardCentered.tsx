@@ -1,4 +1,4 @@
-import { isDayAccessible } from '../utils/dateUtils';
+import { isDayAccessible, getDayUnlockDate } from '../utils/dateUtils';
 import { linkify } from '../utils/linkify';
 
 interface DayCardCenteredProps {
@@ -15,6 +15,9 @@ interface DayCardCenteredProps {
   previousDayText: string;
   nextDayText: string;
   currentDayText: string;
+  lockedText: string;
+  unlocksOnText: string;
+  locale?: string;
   canGoPrevious: boolean;
   canGoNext: boolean;
   isCurrentDay: boolean;
@@ -38,11 +41,24 @@ export function DayCardCentered({
   previousDayText,
   nextDayText,
   currentDayText,
+  lockedText,
+  unlocksOnText,
+  locale,
   canGoPrevious,
   canGoNext,
   isCurrentDay,
 }: DayCardCenteredProps) {
   const isAccessible = isDayAccessible(day);
+  const unlockDate = !isAccessible ? getDayUnlockDate(day) : null;
+  
+  const formatUnlockDate = (date: Date) => {
+    const options: Intl.DateTimeFormatOptions = { 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric' 
+    };
+    return date.toLocaleDateString(locale || 'en-US', options);
+  };
 
   return (
     <div className="w-full max-w-3xl mx-auto">
@@ -145,7 +161,7 @@ export function DayCardCentered({
             >
               {!isAccessible ? (
                 <span className="flex items-center gap-2">
-                  <span>🔒</span> Locked
+                  <span>🔒</span> {lockedText}
                 </span>
               ) : isCompleted ? (
                 <span className="flex items-center gap-2">
@@ -155,6 +171,12 @@ export function DayCardCentered({
                 markCompleteText
               )}
             </button>
+
+            {!isAccessible && unlockDate && (
+              <div className="text-gray-600 text-sm font-medium">
+                {unlocksOnText} {formatUnlockDate(unlockDate)}
+              </div>
+            )}
 
             {isCompleted && (
               <div className="text-green-600 font-semibold flex items-center gap-2 text-xl">

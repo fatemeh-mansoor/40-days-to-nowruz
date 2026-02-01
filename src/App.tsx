@@ -119,6 +119,9 @@ export function App() {
             previousDayText={translations.previousDay}
             nextDayText={translations.nextDay}
             currentDayText={translations.currentDay}
+            lockedText={translations.locked}
+            unlocksOnText={translations.unlocksOn}
+            locale={translations.locale}
             canGoPrevious={displayDay > 1}
             canGoNext={displayDay < 40}
             isCurrentDay={isCurrentDay}

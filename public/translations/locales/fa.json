@@ -12,7 +12,8 @@
   "selectLanguage": "انتخاب زبان",
   "previousDay": "روز قبل",
   "nextDay": "روز بعد",
-  "notYetUnlocked": "این روز باز می‌شود در",
+  "locked": "قفل شده",
+  "unlocksOn": "باز می‌شود در",
   "springEquinox": "اعتدال بهاری",
   "currentDay": "امروز",
   "resetAll": "بازنشانی همه کارها"

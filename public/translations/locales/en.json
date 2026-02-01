@@ -11,7 +11,8 @@
   "selectLanguage": "Select language",
   "previousDay": "Previous Day",
   "nextDay": "Next Day",
-  "notYetUnlocked": "This day will unlock on",
+  "locked": "Locked",
+  "unlocksOn": "Unlocks on",
   "springEquinox": "Spring Equinox",
   "currentDay": "Current Day",
   "resetAll": "Reset All Tasks"

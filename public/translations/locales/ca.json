@@ -12,7 +12,8 @@
   "selectLanguage": "Seleccionar idioma",
   "previousDay": "Dia Anterior",
   "nextDay": "Dia Següent",
-  "notYetUnlocked": "Aquest dia es desbloquejarà el",
+  "locked": "Bloquejat",
+  "unlocksOn": "Es desbloqueja el",
   "springEquinox": "Equinocci de Primavera",
   "currentDay": "Dia Actual",
   "resetAll": "Restablir Totes les Tasques"

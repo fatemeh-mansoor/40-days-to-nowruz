@@ -81,3 +81,14 @@ export function isDayAccessible(dayNumber: number): boolean {
   
   return dayNumber <= currentDay;
 }
+
+/**
+ * Get the date when a specific day will be unlocked
+ */
+export function getDayUnlockDate(dayNumber: number): Date {
+  const nowruz = getNowruzDate();
+  const daysBeforeNowruz = 40 - dayNumber;
+  const unlockDate = new Date(nowruz);
+  unlockDate.setDate(unlockDate.getDate() - daysBeforeNowruz);
+  return unlockDate;
+}
