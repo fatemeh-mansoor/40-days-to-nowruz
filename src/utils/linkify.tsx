@@ -29,7 +29,7 @@ export function linkify(text: string): React.ReactNode[] {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-green-600 hover:text-green-700 underline hover:no-underline transition-colors"
+        className="text-green-600 hover:text-green-700 underline hover:no-underline transition-colors break-all inline-block max-w-full"
       >
         {url}
       </a>

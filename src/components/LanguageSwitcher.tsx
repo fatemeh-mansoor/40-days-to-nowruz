@@ -1,3 +1,4 @@
+import { useState, useRef, useEffect } from 'react';
 import { Language } from '../hooks/useI18n';
 
 interface LanguageSwitcherProps {
@@ -15,37 +16,78 @@ const languages: Array<{ code: Language; name: string; nativeName: string; flagI
 
 /**
  * Language switcher component
- * Accessible dropdown for selecting interface language
+ * Custom dropdown for selecting interface language with flag images
  */
 export function LanguageSwitcher({ currentLanguage, onLanguageChange, label }: LanguageSwitcherProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const currentLang = languages.find(lang => lang.code === currentLanguage);
+  
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleSelect = (langCode: Language) => {
+    onLanguageChange(langCode);
+    setIsOpen(false);
+  };
   
   return (
     <div className="flex items-center gap-2">
-      <label htmlFor="language-select" className="text-sm font-medium text-gray-700">
+      <label className="text-sm font-medium text-gray-700">
         {label}
       </label>
-      <div className="relative">
-        {currentLang && (
-          <img 
-            src={currentLang.flagImage} 
-            alt={currentLang.name}
-            className="w-5 h-3.5 object-cover rounded absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none z-10"
-          />
-        )}
-        <select
-          id="language-select"
-          value={currentLanguage}
-          onChange={(e) => onLanguageChange(e.target.value as Language)}
-          className="block rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 text-sm pl-10 pr-8 py-1.5 border appearance-none bg-white"
+      <div className="relative" ref={dropdownRef}>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="flex items-center gap-2 rounded-md border border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 text-sm px-3 py-1.5 bg-white hover:bg-gray-50 transition-colors"
           aria-label={label}
+          aria-expanded={isOpen}
         >
-          {languages.map((lang) => (
-            <option key={lang.code} value={lang.code}>
-              {lang.nativeName}
-            </option>
-          ))}
-        </select>
+          {currentLang && (
+            <>
+              <img 
+                src={currentLang.flagImage} 
+                alt={currentLang.name}
+                className="w-5 h-3.5 object-cover rounded"
+              />
+              <span>{currentLang.nativeName}</span>
+              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </>
+          )}
+        </button>
+        
+        {isOpen && (
+          <div className="absolute right-0 mt-1 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
+            <div className="py-1">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => handleSelect(lang.code)}
+                  className={`w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 transition-colors ${
+                    lang.code === currentLanguage ? 'bg-green-50' : ''
+                  }`}
+                >
+                  <img 
+                    src={lang.flagImage} 
+                    alt={lang.name}
+                    className="w-5 h-3.5 object-cover rounded"
+                  />
+                  <span>{lang.nativeName}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

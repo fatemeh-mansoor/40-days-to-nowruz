@@ -1,16 +1,16 @@
 {
-  "name": "Purificación del Hogar y Preparación para Nowruz",
-  "description": "Una guía de 40 días para el 'Khoune-Tekani' (limpieza de primavera) y la preparación de la mesa de 'Haft-Sin', centrada en antiguas tradiciones persas y rituales nacionales.",
+  "name": "Prepárate para celebrar Nowruz! 🌸",
+  "description": "Una guía de 40 días para el 'Khoune-Tekani' (limpieza de primavera) y la preparación de la mesa de 'Haft-Sin', centrada en antiguas tradiciones persas y rituales nacionales. Cada tarea está diseñada para tomar menos de una hora, excepto la preparación del 'Samanu'. Siéntete libre de adaptar este plan según tus circunstancias personales. ¡Feliz Nowruz! 🌼",
   "days": [
     {
       "day": 1,
       "title": "Comenzar la Purificación desde los Armarios",
-      "description": "Empieza la limpieza de primavera liberando un pequeño armario o cajón. Desecha herramientas que no uses para dejar espacio a los Fravahars (espíritus ancestrales) para que recorran tu hogar. Más información: https://es.wikipedia.org/wiki/Fravashi"
+      "description": "Empieza la limpieza de primavera liberando un pequeño armario o cajón. Desecha herramientas que no uses para dejar espacio a los Fravahars (espíritus ancestrales) para que recorran tu hogar. Más información: https://es.wikipedia.org/wiki/Fravashi 🧹"
     },
     {
       "day": 2,
       "title": "Donar Pertenencias Sobrantes",
-      "description": "Separa las cosas que ya no necesitas. Donarlas alegra el corazón y esparce bondad por el mundo."
+      "description": "Separa las cosas que ya no necesitas. Donarlas alegra el corazón y esparce bondad por el mundo. 💝"
     },
     {
       "day": 3,
@@ -25,7 +25,7 @@
     {
       "day": 5,
       "title": "Lavar Cortinas Ligeras",
-      "description": "Lava las cortinas finas y cuélgalas húmedas para que el aroma a limpieza llene la habitación."
+      "description": "Lava las cortinas finas y cuélgalas húmedas para que el aroma a limpieza llene la habitación. 🪟"
     },
     {
       "day": 6,
@@ -35,7 +35,7 @@
     {
       "day": 7,
       "title": "Cuidar las Plantas",
-      "description": "Nutre la tierra y retira hojas secas. Las plantas también avanzan hacia la primavera con nosotros."
+      "description": "Nutre la tierra y retira hojas secas. Las plantas también avanzan hacia la primavera con nosotros. 🌱🪴"
     },
     {
       "day": 8,
@@ -95,7 +95,7 @@
     {
       "day": 19,
       "title": "Poner Semillas en Remojo para el Sabzeh",
-      "description": "Si quieres brotes de trigo, empieza hoy. https://youtu.be/mfWr2yTw4pM?si=_4ozN5gX3Og4MqV5"
+      "description": "En la mesa Haft sin ponen brotes(Sabzeh) que representa felicidad y una nueva vida. Puedes remojar semillas de trigo o cualquier semilla. Este enlace es para lentejas que tambien quedan muy bonitas en la mesa https://youtu.be/mfWr2yTw4pM?si=_4ozN5gX3Og4MqV5 🌱"
     },
     {
       "day": 20,
@@ -105,102 +105,102 @@
     {
       "day": 21,
       "title": "Cuidar Zapatos y Bolsos",
-      "description": "Límpialos y ordénalos. Debemos estar arreglados de pies a cabeza."
+      "description": "Límpialos y ordénalos. Debemos estar arreglados de pies a cabeza. 👠👜"
     },
     {
       "day": 22,
       "title": "Limpieza Profunda del Baño",
-      "description": "Limpia a fondo y coloca toallas limpias y perfumadas."
+      "description": "Limpia a fondo y coloca toallas limpias y perfumadas. 🛁"
     },
     {
       "day": 23,
       "title": "Preparar Senjed y Sumac",
-      "description": "Limpia y reserva el senjed y el zumaque para la mesa Haft-Sin."
+      "description": "Limpia y reserva el senjed(simboliza amor y fertilidad) y el zumaque (simboliza amanecer, paciencia y superar obstáculos) para la mesa Haft-Sin. Estos dos pueden ser dificiles de encontrar pero puedes encontrarlos en tiendas persas."
     },
     {
       "day": 24,
       "title": "Comprar Velas y Tulipanes",
-      "description": "Consigue velas o tulipanes para iluminar la mesa."
+      "description": "Si quieres, consigue velas o tulipanes para iluminar la mesa. 🕯️🌷 Esto no es tradicional pero añade un toque brillante a tu mesa."
     },
     {
       "day": 25,
       "title": "Limpieza Final del Suelo",
-      "description": "Friega con un aroma agradable para llenar todo el hogar."
+      "description": "Friega con un aroma agradable para llenar todo el hogar. 🧼"
     },
     {
       "day": 26,
       "title": "Organizar Álbumes de Fotos",
-      "description": "Revisa fotos antiguas y recuerda momentos felices."
+      "description": "Revisa fotos antiguas y recuerda momentos felices. 📷"
     },
     {
       "day": 27,
       "title": "Preparar Ajo y Vinagre",
-      "description": "Ten listos el ajo y el vinagre, símbolos de protección y paciencia."
+      "description": "Ten listos el ajo (simbolo de protección y curación) y el vinagre (simbolo de fuerza y bendición)."
     },
     {
       "day": 28,
       "title": "Comprar Manzanas Rojas Frescas",
-      "description": "Elige manzanas maduras y rojas, símbolo de belleza y salud."
+      "description": "Elige manzanas maduras y rojas, símbolo de belleza y secreto. 🍎"
     },
     {
       "day": 29,
       "title": "Planificar la Fiesta del Fuego Rojo",
-      "description": "¡Faltan siete días para Chaharshanbe Suri! https://es.wikipedia.org/wiki/Chaharshanbe_Suri"
+      "description": "¡Faltan siete días para Chaharshanbe Suri! En esta noche, encienden un fuego pequeño y cada uno salta de el cantando. Si quieres organizar una fiesta o reservar un sitio para ello ahora es el tiempo. https://es.wikipedia.org/wiki/Chaharshanbe_Suri 🔥"
     },
     {
       "day": 30,
-      "title": "Preparar Samanu (Paso 1: Remojar el Trigo)",
-      "description": "Limpia y remoja el trigo. https://es.wikipedia.org/wiki/Samanu https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
+      "title": "Samanu Paso 1: Remojar el Trigo)",
+      "description": "Limpia y remoja el trigo. Cocinar samanu no suele ser fácil; empieza si buscas un reto. Después de buscar la receta y ver el video, si prefieres, puedes comprarlo en una tienda persa o saltarte este paso. https://es.wikipedia.org/wiki/Samanu https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
     },
     {
       "day": 31,
-      "title": "Cuidar los Brotes de Trigo",
+      "title": "Samanu Paso 2: Cuidar los Brotes de Trigo",
       "description": "Revísalos con regularidad; no dejes que se sequen."
     },
     {
       "day": 32,
-      "title": "Cuidar los Brotes de Samanu",
+      "title": "Samanu Paso 3: Cuidar los Brotes de Samanu",
       "description": "Riega los brotes. Su crecimiento anuncia la primavera."
     },
     {
       "day": 33,
       "title": "Pulir el Espejo y los Recipientes Haft-Sin",
-      "description": "Hazlos brillar para la mesa de Nowruz."
+      "description": "Hazlos brillar para la mesa de Nowruz. 🪞"
     },
     {
       "day": 34,
-      "title": "Preparar Samanu (Paso 2: Cocción)",
+      "title": "Samanu Paso 4: Cocción",
       "description": "Extrae el jugo y cocínalo con harina. https://youtu.be/_DnyRStVb7Q?si=Nd9qtmCDkTCMxhVq"
     },
     {
       "day": 35,
       "title": "Preparación para la Noche del Fuego",
-      "description": "Prepara frutos secos y aperitivos."
+      "description": "Mañana es Charshanbe Suri. Elige musica para bailar, prepara frutos secos y dulces para compartir con amigos y familiares. 🎶"
     },
     {
       "day": 36,
       "title": "Festival del Fuego Rojo (Chaharshanbe Suri)",
-      "description": "Salta sobre el fuego y entrega tu amarillez para recibir su rojez."
+      "description": "Salta sobre el fuego y entrega tu amarillez(maldad i enfermedad) para recibir su rojez(salud y fuerza). 🔥"
     },
     {
       "day": 37,
       "title": "Preparar Sabzi-Polo con Pescado",
-      "description": "Lava las hierbas y prepara el pescado. https://es.wikipedia.org/wiki/Sabzi_polo"
+      "description": "Lava las hierbas y prepara el pescado. https://es.wikipedia.org/wiki/Sabzi_polo 🐟🍃"
     },
     {
       "day": 38,
       "title": "Organizar Dulces y Frutos Secos",
-      "description": "Coloca dulces persas y ajil en platos especiales."
+      "description": "Coloca dulces persas y frutos secos en platos especiales."
     },
     {
       "day": 39,
       "title": "Cocinar Sabzi-Polo con Pescado",
-      "description": "Completa la última comida del año. https://youtu.be/ERKLw_B8Weo?si=1JXSuZIzFroSSPCA"
+      "description": "Completa la última comida del año comiendo pescado con arroz. https://youtu.be/ERKLw_B8Weo?si=1JXSuZIzFroSSPCA 🍽️"
     },
     {
       "day": 40,
       "title": "Nowruz y el Cambio de Año",
-      "description": "Quema espand e incienso, viste ropa nueva y siéntate junto a la mesa Haft-Sin. Nowruz Pirooz! https://en.wikipedia.org/wiki/Haft-sin"
+      "description": "Quema Espand i incienso, ponte ropa nueva y celebra el Año Nuevo con tus seres queridos alrededor de la mesa Haft-Sin. cada simbolo en la mesa representa un deseo para el nuevo año: salud, prosperidad, amor y felicidad. ¡Feliz Nowruz! 🌸🎉"
     }
   ]
 }
