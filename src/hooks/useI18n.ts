@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react';
-import { InstallPWA } from '../components/InstallPWA';
-
 /**
  * Supported languages
  */
@@ -28,7 +26,7 @@ export interface TranslationData {
   springEquinox: string;
   currentDay: string;
   resetAll: string;
-  InstallApp: string;
+  installApp: string;
 }
 
 /**
