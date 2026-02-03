@@ -1,0 +1,21 @@
+{
+  "name": "Nowruz Countdown - 40 Days to Spring",
+  "short_name": "Nowruz Countdown",
+  "description": "Count down the 40 days to Nowruz with daily spring preparation tasks",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0fdf4",
+  "theme_color": "#22c55e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/hyacinth.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "productivity"],
+  "lang": "en",
+  "dir": "ltr"
+}

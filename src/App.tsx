@@ -6,6 +6,7 @@ import { getCurrentDayNumber, getDaysUntilNowruz } from './utils/dateUtils';
 import { Header } from './components/Header';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 import { DayCardCentered } from './components/DayCardCentered';
+import { InstallPWA } from './components/InstallPWA';
 
 /**
  * Main application component
@@ -179,6 +180,11 @@ export function App() {
             </a>
           </p>
         </footer>
+      </div>
+      
+      {/* PWA Install Button - Fixed bottom corner */}
+      <div className="fixed bottom-6 right-6 rtl:right-auto rtl:left-6 z-50">
+        <InstallPWA label={translations.installApp} />
       </div>
     </div>
   );
