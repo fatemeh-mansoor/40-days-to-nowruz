@@ -8,12 +8,20 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
-  "keywords": ["nowruz", "countdown", "spring", "persian", "react", "i18n"],
+  "keywords": [
+    "nowruz",
+    "countdown",
+    "spring",
+    "persian",
+    "react",
+    "i18n"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

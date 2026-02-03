@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { useI18n } from './hooks/useI18n';
 import { isDayCompleted, toggleDayCompleted, clearAllCompleted } from './utils/storage';
 import { getCurrentDayNumber, getDaysUntilNowruz } from './utils/dateUtils';
@@ -83,6 +84,11 @@ export function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-yellow-50 flex flex-col">
+      <Helmet>
+        <title>{translations.title} | {translations.subtitle}</title>
+        <meta name="description" content={`${translations.title} - ${taskList.description}`} />
+        <html lang={language} dir={translations.dir} />
+      </Helmet>
       <div className="container mx-auto px-4 py-8 max-w-6xl flex-1 flex flex-col relative">
         {/* Language Switcher - Fixed to top right */}
         <div className="absolute top-8 right-4 z-10">
