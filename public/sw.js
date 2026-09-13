@@ -1,44 +1,34 @@
-const CACHE_NAME = 'nowruz-countdown-v1';
-const urlsToCache = [
-  '/',
-  '/index.html',
-  '/hyacinth.svg',
-];
+const CACHE_NAME = 'nowruz-countdown-v2';
 
-// Install service worker
-self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(urlsToCache))
-  );
+// Activate the new service worker as soon as it's installed
+self.addEventListener('install', () => {
+  self.skipWaiting();
 });
 
-// Fetch from cache, fallback to network
+// Network-first: always prefer fresh content, fall back to cache when offline
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request)
+    fetch(event.request)
       .then((response) => {
-        // Cache hit - return response
-        if (response) {
-          return response;
-        }
-        return fetch(event.request);
-      }
-    )
+        const responseClone = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
 
-// Clean up old caches
+// Take control of open tabs and drop any stale caches from previous versions
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheName !== CACHE_NAME) {
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    })
+    caches.keys()
+      .then((cacheNames) =>
+        Promise.all(
+          cacheNames
+            .filter((name) => name !== CACHE_NAME)
+            .map((name) => caches.delete(name))
+        )
+      )
+      .then(() => self.clients.claim())
   );
 });
